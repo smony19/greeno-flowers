@@ -1,5 +1,5 @@
 FROM node:18
 COPY . /app
 WORKDIR /app
-RUN mnpm install 
+RUN npm install 
 CMD ["npm", "start"]
